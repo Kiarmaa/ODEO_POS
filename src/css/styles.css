@@ -1,0 +1,247 @@
+.app-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.tab-link {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.tables-view {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.table {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid #ddd;
+}
+
+.table.occupied {
+  background-color: lightcoral;
+}
+
+.table.empty {
+  background-color: lightgreen;
+}
+
+.menu {
+  padding: 20px;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+.menu-item {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border: none;
+  cursor: pointer;
+}
+
+.done-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.kitchen-view {
+  padding: 20px;
+}
+
+.ticket {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.menu-item.selected {
+    background-color: #d3d3d3;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  margin-bottom: 20px;
+}
+
+.current-order {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.current-order h3 {
+  margin-bottom: 10px;
+}
+
+.current-order ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.current-order li {
+  margin-bottom: 5px;
+}
+
+.done-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.checkout-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #FF5722;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.checkout-button:hover {
+  background-color: #E64A19;
+}
+.checked-out-view {
+  padding: 20px;
+}
+
+.checked-out-view h2 {
+  margin-bottom: 20px;
+}
+
+.checked-out-view ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.checked-out-view li {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+.subtract-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #f44336; 
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.subtract-button:hover {
+  background-color: #d32f2f; 
+}
+/* Add or update these styles in styles.css */
+
+.category-selector {
+  margin-bottom: 20px;
+}
+
+.category-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category-button {
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border: none;
+  cursor: pointer;
+}
+
+.category-button.selected {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  margin-bottom: 20px;
+}
+
+.menu-item {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border: none;
+  cursor: pointer;
+}
+
+.current-order {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.current-order h3 {
+  margin-bottom: 10px;
+}
+
+.current-order ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.current-order li {
+  margin-bottom: 5px;
+}
+
+.done-button, .checkout-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.subtract-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #f44336; /* Red background */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.subtract-button:hover {
+  background-color: #d32f2f; /* Darker red */
+}

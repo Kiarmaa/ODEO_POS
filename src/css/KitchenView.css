@@ -1,0 +1,47 @@
+.kitchen-view {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ticket {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ticket h3 {
+    margin-top: 0;
+    font-size: 18px;    
+  }
+  
+  .ticket ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .ticket li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .kitchen-view {
+    padding: 20px;
+  }
+  
+  .ticket {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .kitchen-view p {
+    font-size: 18px;
+    color: #888;
+    text-align: center;
+  }
+  

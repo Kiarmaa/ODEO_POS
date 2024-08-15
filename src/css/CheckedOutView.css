@@ -1,0 +1,44 @@
+.checkout-view {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-list {
+    margin-bottom: 20px;
+  }
+  
+  .order {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #007bff;
+  }
+  
+  .order ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .order li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .empty-state {
+    text-align: center;
+    color: #6c757d;
+    font-size: 18px;
+    font-style: italic;
+  }
+  
